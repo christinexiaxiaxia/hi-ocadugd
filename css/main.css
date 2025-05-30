@@ -218,8 +218,10 @@ a:hover {
     padding: 0.5rem;
     overflow: auto;
 
-	background-color: #999;
-	color: white;
+	/*background-color: #999;*/
+	/*color: white;*/
+	background-color: white;
+	color: black;
 
 	font-size: 0.5rem;
 }
