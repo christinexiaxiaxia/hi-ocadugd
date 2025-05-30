@@ -33,6 +33,8 @@ video {
 	height: auto;
 	grid-column-start: 2;
 	grid-column-end: span 1;
+	
+	background-color: #ccc;
 
 	mix-blend-mode: multiply;
 }
@@ -42,6 +44,8 @@ iframe {
 	aspect-ratio: 16 / 9;
 	grid-column-start: 2;
 	grid-column-end: span 1;
+	
+	background-color: #ccc;
 
 	mix-blend-mode: multiply;
 }
@@ -52,6 +56,8 @@ iframe {
 
 	margin-top: -1rem;
 	margin-bottom: -1.5rem;
+	
+	background-color: #ccc;
 }
 
 .halfcontainer {
@@ -73,6 +79,8 @@ img {
 	width: 100%;
 	grid-column-start: 2;
 	grid-column-end: span 1;
+	
+	background-color: #ccc;
 
 	mix-blend-mode: multiply;
 }
