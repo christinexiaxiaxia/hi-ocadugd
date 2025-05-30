@@ -54,9 +54,10 @@ iframe {
 	grid-column-start: 2;
 	grid-column-end: span 1;
 
-	margin-top: -1rem;
-	margin-bottom: -1.5rem;
+	/*padding: 56.25% 0 2.5rem 0;*/
+	padding: 56.25% 0 0 0;
 	
+	mix-blend-mode: multiply;
 	background-color: #ccc;
 }
 
