@@ -19,17 +19,21 @@ $(document).mousemove(function(e){
 // COLOUR SWITCH
 
 $('.left').hover(function(){
-	$(this).css({'background-color':'white','color':'red'});
-	$('.left-link').css({'color':'red'});
+	$(this).css({'background-color':'white','color':'black'});
+	$('.left-link').css({'color':'black'});
+	// $('::-webkit-scrollbar-thumb').css({'background':'white'});
 }, function(){
-	$(this).css({'background-color':'red','color':'white'});
+	$(this).css({'background-color':'#999','color':'white'});
 	$('.left-link').css({'color':'white'});
+	// $('::-webkit-scrollbar-thumb').css({'background':'#999'});
 })
 
 $('.right').hover(function(){
-	$(this).css({'background-color':'white','color':'red'});
-	$('.right-link').css({'color':'red'});
+	$(this).css({'background-color':'white','color':'black'});
+	$('.right-link').css({'color':'black'});
+	// $('::-webkit-scrollbar-thumb').css({'background':'white'});
 }, function(){
-	$(this).css({'background-color':'red','color':'white'});
+	$(this).css({'background-color':'#999','color':'white'});
 	$('.right-link').css({'color':'white'});
+	// $('::-webkit-scrollbar-thumb').css({'background':'#999'});
 })
