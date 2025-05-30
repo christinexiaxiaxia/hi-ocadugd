@@ -146,6 +146,12 @@ a {
 	font-size: 1rem;
 }
 
+.more-works {
+	font-family: sans-serif;
+	font-size: 0.5rem;
+	color: white;
+}
+
 .left-link {
 	color: white;
 }
@@ -155,7 +161,9 @@ a {
 }
 
 a:hover {
-	text-decoration: line-through;
+	/*text-decoration: underline;*/
+	font-family: serif;
+	font-size: 0.6rem;
 
 	cursor: alias;
 }
