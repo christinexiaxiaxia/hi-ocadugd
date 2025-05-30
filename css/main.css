@@ -54,6 +54,21 @@ iframe {
 	margin-bottom: -1.5rem;
 }
 
+.halfcontainer {
+	grid-column-start: 2;
+	grid-column-end: span 1;
+	margin-bottom: -0.25rem;
+}
+
+.half {
+	width: calc(50% - 0.3rem);
+	display: inline-block;
+}
+
+.half-right {
+	margin-left: 0.3rem;
+}
+
 img {
 	width: 100%;
 	grid-column-start: 2;
