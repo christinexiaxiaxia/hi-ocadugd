@@ -91,6 +91,10 @@ img:hover {
 	/*filter: grayscale(100);*/
 }
 
+.border {
+	outline: solid 1px black;
+}
+
 #ninegif {
 	width: 100%;
 	aspect-ratio: 4 / 4.9;
