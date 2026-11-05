@@ -149,11 +149,20 @@ p {
 	height: 0;
 }
 
-a {
+a.caption {
 	margin-top: 0px;
-	text-decoration: none;
 
-	font-size: 1rem;
+	font-size: 0.5rem;
+	line-height: 0.6rem;
+	font-family: sans-serif;
+
+	color: black;
+	text-decoration: underline solid 1px black;
+	text-underline-offset: 1.5px;
+}
+
+a.more-works {
+	text-decoration: none;
 }
 
 .more-works {
@@ -174,6 +183,7 @@ a:hover {
 	/*text-decoration: underline;*/
 	font-family: serif;
 	font-size: 0.6rem;
+	line-height: 0.5rem;
 
 	cursor: alias;
 }
