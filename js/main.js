@@ -20,20 +20,20 @@ $(document).mousemove(function(e){
 
 $('.left').hover(function(){
 	$(this).css({'background-color':'white','color':'black'});
-	$('.left-link').css({'color':'black'});
+	$('.left-link').css({'color':'black', 'text-decoration-color':'black'});
 	// $('::-webkit-scrollbar-thumb').css({'background':'white'});
 }, function(){
 	$(this).css({'background-color':'#999','color':'white'});
-	$('.left-link').css({'color':'white'});
+	$('.left-link').css({'color':'white', 'text-decoration-color':'white'});
 	// $('::-webkit-scrollbar-thumb').css({'background':'#999'});
 })
 
 $('.right').hover(function(){
 	$(this).css({'background-color':'white','color':'black'});
-	$('.right-link').css({'color':'black'});
+	$('.right-link').css({'color':'black', 'text-decoration-color':'black'});
 	// $('::-webkit-scrollbar-thumb').css({'background':'white'});
 }, function(){
 	$(this).css({'background-color':'#999','color':'white'});
-	$('.right-link').css({'color':'white'});
+	$('.right-link').css({'color':'white', 'text-decoration-color':'white'});
 	// $('::-webkit-scrollbar-thumb').css({'background':'#999'});
 })
